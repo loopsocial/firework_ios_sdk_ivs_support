@@ -25,7 +25,7 @@ Ensure your Firework content is configured and apply correct styling and/or layo
 
 ### Installation
 
-Swift Package Manager is the recommended way to install the FireworkVideo Google IVS Supporting Library.
+Swift Package Manager is the recommended way to install the FireworkVideo IVS Supporting Library.
 
 > Note: alternatively you can [download the binary](https://github.com/loopsocial/firework_ios_sdk_ivs_support/releases/latest) directly and install it manually.
 
