@@ -17,6 +17,8 @@ This supporting library is intended to be used alongside FireworkVideo SDK. Read
 
 Ensure your Firework content is configured and apply correct styling and/or layout before integrating the IVS supporting library. This will ensure your testing conditions will match your production environment.
 
+**The supporting library only supports FireworkVideoSDK v1.0.0 or higher**
+
 ## Setup
 
   1. Add FireworkVideoSDK to your project; follow the [Firework Video installation instructions](https://github.com/loopsocial/firework_ios_sdk#readme).
