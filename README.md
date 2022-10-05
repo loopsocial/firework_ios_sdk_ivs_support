@@ -9,7 +9,7 @@ A supporting library for the Amazon IVS SDK for use with FireworkVideo live stre
 This supporting library assumes basic familiarity with Amazon IVS. If needed, read over the IVS [User Guide](https://docs.aws.amazon.com/ivs/latest/userguide/player-ios.html) before diving in.
 
 
-**The supporting library only supports IVS SDK 1.8.1 or higher. Using the supporting library alongside a version of IVS SDK below 1.8.1 may result in undefined behavior.**
+**The supporting library only supports IVS SDK 1.8.3 or higher. Using the supporting library alongside a version of IVS SDK below 1.8.3 may result in undefined behavior.**
 
 ## FireworkVideo SDK Documentation
 
@@ -17,7 +17,7 @@ This supporting library is intended to be used alongside FireworkVideo SDK. Read
 
 Ensure your Firework content is configured and apply correct styling and/or layout before integrating the IVS supporting library. This will ensure your testing conditions will match your production environment.
 
-**The supporting library only supports FireworkVideoSDK v1.0.0 or higher**
+**The supporting library only supports FireworkVideoSDK v1.2.0 or higher**
 
 ## Setup
 
