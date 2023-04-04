@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
     s.ios.vendored_frameworks  = "FireworkVideoIVSSupport.xcframework"
     s.cocoapods_version        = '>= 1.10.0'
   
-    s.dependency 'AmazonIVSPlayer', '~> 1.8'
+    s.dependency 'AmazonIVSPlayer', '~> 1.8.3'
   
   end
