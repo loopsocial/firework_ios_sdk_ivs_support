@@ -11,7 +11,7 @@ let package = Package(
     products: [
         .library(
             name: "FireworkVideoIVSSupport",
-            targets: ["FireworkVideoIVSSupport", "FireworkVideoIVSSupportDepedencies"]
+            targets: ["FireworkVideoIVSSupport", "FireworkVideoIVSSupportDependencies"]
         )
     ],
     dependencies: [
@@ -27,7 +27,7 @@ let package = Package(
             checksum: "477568277138b338a6dbaf2bf0ebd3961ddce138a844279724cf0bf8ce004ff7"
         ),
         .target(
-            name: "FireworkVideoIVSSupportDepedencies",
+            name: "FireworkVideoIVSSupportDependencies",
             dependencies: [
                 .product(name: "AmazonIVSPlayer", package: "AmazonIVSPlayer")
             ]
