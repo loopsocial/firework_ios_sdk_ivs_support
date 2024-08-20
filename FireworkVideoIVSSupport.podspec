@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'FireworkVideoIVSSupport'
-    s.version          = '0.5.0'
+    s.version          = '0.6.0-beta.1'
     s.summary          = 'FireworkVideoIVSSupport'
   
     s.homepage         = 'https://github.com/loopsocial/firework_ios_sdk_ivs_support'
@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
     s.ios.vendored_frameworks  = "FireworkVideoIVSSupport.xcframework"
     s.cocoapods_version        = '>= 1.10.0'
   
-    s.dependency 'AmazonIVSPlayer', '~> 1.8.3'
+    s.dependency 'AmazonIVSPlayer', '~> 1.31.0'
   
   end

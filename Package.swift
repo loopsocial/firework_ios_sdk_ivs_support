@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "FireworkVideoIVSSupport",
     platforms: [
-        .iOS(.v12)
+        .iOS(.v13)
     ],
     products: [
         .library(
@@ -16,15 +16,15 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/loopsocial/AmazonIVSPlayer.git", 
-            .upToNextMajor(from: "1.8.3")
+            url: "https://github.com/loopsocial/AmazonIVSPlayer.git",
+            .upToNextMajor(from: "1.31.0")
         )
     ],
     targets: [
         .binaryTarget(
             name: "FireworkVideoIVSSupport",
-            url: "https://github.com/loopsocial/firework_ios_sdk_ivs_support/releases/download/v0.6.0/FireworkVideoIVSSupport-v0.6.0.xcframework.zip",
-            checksum: "de573ede9467185d592c2e410ee07620f9885ad5d5b7e7edf0abba772b23ce63"
+            url: "https://github.com/loopsocial/firework_ios_sdk_ivs_support/releases/download/v0.6.0-beta.1/FireworkVideoIVSSupport-v0.6.0-beta.1.xcframework.zip",
+            checksum: "54c2bc92d87c05902a196ee023a1e4bbcc960e86f0de37b9395198ad7f58c2f4"
         ),
         .target(
             name: "FireworkVideoIVSSupportDependencies",
