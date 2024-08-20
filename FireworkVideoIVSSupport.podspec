@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
     s.name             = 'FireworkVideoIVSSupport'
-    s.version          = '0.6.0'
+    s.version          = '0.5.0'
     s.summary          = 'FireworkVideoIVSSupport'
   
     s.homepage         = 'https://github.com/loopsocial/firework_ios_sdk_ivs_support'
     s.license          = { :text => "Copyright 2023 Loop Now Technologies, Inc.", :type => "Copyright" }
     s.author           = "Loop Now Technologies, Inc."
-    s.platform         = :ios, "12.0"
+    s.platform         = :ios, "13.0"
     s.module_name      = "FireworkVideoIVSSupport"
     s.source           = { :http => "https://github.com/loopsocial/firework_ios_sdk_ivs_support/releases/download/v#{s.version}/FireworkVideoIVSSupport-v#{s.version}.xcframework.zip" }
     s.swift_version    = '5.3'
