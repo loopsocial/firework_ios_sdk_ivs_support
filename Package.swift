@@ -17,14 +17,14 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/loopsocial/AmazonIVSPlayer.git",
-            .upToNextMajor(from: "1.31.0")
+            .upToNextMajor(from: "1.32.0")
         )
     ],
     targets: [
         .binaryTarget(
             name: "FireworkVideoIVSSupport",
-            url: "https://github.com/loopsocial/firework_ios_sdk_ivs_support/releases/download/v0.7.0/FireworkVideoIVSSupport-v0.7.0.xcframework.zip",
-            checksum: "8f7ae47ed8448f881fa21e54570e53700378788dc8203cb30918d48c61b79829"
+            url: "https://github.com/loopsocial/firework_ios_sdk_ivs_support/releases/download/v0.7.1/FireworkVideoIVSSupport-v0.7.1.xcframework.zip",
+            checksum: "6da3f0f04e3f70e1ebf01aaa770186684815808c474455dfeb0ceae3dadcc29d"
         ),
         .target(
             name: "FireworkVideoIVSSupportDependencies",
