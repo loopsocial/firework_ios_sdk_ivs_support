@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'FireworkVideoIVSSupport'
-    s.version          = '0.8.0'
+    s.version          = '0.8.1'
     s.summary          = 'FireworkVideoIVSSupport'
   
     s.homepage         = 'https://github.com/loopsocial/firework_ios_sdk_ivs_support'
