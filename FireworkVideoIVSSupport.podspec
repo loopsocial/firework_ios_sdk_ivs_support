@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FireworkVideoIVSSupport'
-  s.version          = '0.9.0-beta.4'
+  s.version          = '0.9.0'
   s.summary          = 'FireworkVideoIVSSupport'
 
   s.homepage         = 'https://github.com/loopsocial/firework_ios_sdk_ivs_support'
@@ -39,7 +39,8 @@ Pod::Spec.new do |s|
     else
       echo "Failed to extract framework version."
     fi
-    '
+    ',
+    :output_files => ['${DERIVED_FILE_DIR}/out.txt']
   }
 
   s.dependency 'AmazonIVSPlayer', '1.38.0'
