@@ -23,8 +23,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "FireworkVideoIVSSupport",
-            url: "https://github.com/loopsocial/firework_ios_sdk_ivs_support/releases/download/v0.9.5-beta.1/FireworkVideoIVSSupport-v0.9.5-beta.1.xcframework.zip",
-            checksum: "93eeb568497c598ed620e448af22aeee30dfe8642076eefe7db15d2c6aa3f9b5"
+            url: "https://github.com/loopsocial/firework_ios_sdk_ivs_support/releases/download/v0.9.5-beta.2/FireworkVideoIVSSupport-v0.9.5-beta.2.xcframework.zip",
+            checksum: "45b6f65370993b81a632431a9e02edaa05ca87a685d23dae554cb556c2ecd2ed"
         ),
         .target(
             name: "FireworkVideoIVSSupportDependencies",
