@@ -23,7 +23,18 @@ Ensure your Firework content is configured and apply correct styling and/or layo
 
 Swift Package Manager is the recommended way to install the FireworkVideo IVS Supporting Library.
 
-We also support using Cocoapods to install this library. For example, add the following code snippet in the Podfile.
+We also support using Cocoapods to install this library.
+
+CocoaPods trunk became read-only on December 2, 2026, so new versions of FireworkVideoIVSSupport are published to the [Firework specs repository](https://github.com/loopsocial/firework_ios_specs). Add it to the top of your Podfile together with the CocoaPods CDN:
+
+```ruby
+source 'https://github.com/loopsocial/firework_ios_specs.git'
+source 'https://cdn.cocoapods.org/'
+```
+
+Keep the `cdn.cocoapods.org` line. Once a Podfile declares any `source`, CocoaPods no longer adds the CDN by default, and other dependencies such as `AmazonIVSPlayer`, as well as FireworkVideoIVSSupport versions released before December 2, 2026, are only available there.
+
+Then add the library and run `pod install --repo-update`:
 
 ```ruby
 pod 'FireworkVideoIVSSupport'
