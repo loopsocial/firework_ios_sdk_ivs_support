@@ -3,6 +3,12 @@
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.9.11]
+
+### Fixed
+
+- Fixed a launch crash (`Symbol not found: _OBJC_CLASS_$_AVPictureInPictureController`) with `FireworkVideo` releases that don't re-export system classes. 0.9.10 bound `NSObject`, `AVPictureInPictureController` and other system classes to `FireworkVideo`; this release links them from their system frameworks. Requires a `FireworkVideo` release with the export fix.
+
 ## [0.9.10]
 
 ### Changed
